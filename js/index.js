@@ -25,7 +25,7 @@ var start2 = function(){
     }, 100);
 }
 function randomFood2() {
-    let streetFood = ['元味便當', '光華垃圾麵', '陳記燒臘', '光華飯包', '小四川', '來來炒飯', '銀記', '麵足飯飽', '大福燒', '嵐迪', '咖食堂']
+    let streetFood = ['元味便當', '光華垃圾麵', '陳記燒臘', '光華飯包', '小四川', '來來炒飯', '銀記', '麵足飯飽', '嵐迪', '咖食堂']
     let num = Math.floor(Math.random(streetFood.length + 1) * 10);
     let answer = document.querySelector('.food-block p');
     answer.textContent = streetFood[num]
