@@ -36,7 +36,7 @@ randomFood2.prototype.newFood = function(){
 }
 
 var f1 = new randomFood2(['LOUISA', '小木屋鬆餅', '麥味登', '誠字號', '全家', '自助餐', '素還真', '四海遊龍', '橙廚義麵', '蔥抓餅']);
-var f2 = new randomFood2(['元味便當', '光華垃圾麵', '麻辣燙', '光華飯包', '小四川', '來來炒飯', '銀記', 'PASTA', '嵐迪', '咖食堂'])
+var f2 = new randomFood2(['煎餅果子', '光華垃圾麵', '麻辣燙', '品福', '滷味', '金湘', '銀記', 'PASTA', '嵐迪', '咖食堂'])
 
 
 
